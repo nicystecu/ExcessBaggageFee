@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             rate = Double.parseDouble(etRate.getText().toString());
 
             if (weight < 0 || rate < 0) {
-                Toast.makeText(this, "Weight and rate cannot be negative", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Weight and rate cannot be negative!", Toast.LENGTH_SHORT).show();
                 return;
             }
 
